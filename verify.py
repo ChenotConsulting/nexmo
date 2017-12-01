@@ -64,7 +64,7 @@ def checkVerification():
     """Check that a PIN code is valid"""
     action = "verify/check/"
 
-    requestID = raw_input("Please enter the request ID to cancel: ")
+    requestID = raw_input("Please enter the request ID to check: ")
     print(requestID)
 
     pin_code = raw_input("Please enter the PIN code received: ")
