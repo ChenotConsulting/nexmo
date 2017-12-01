@@ -7,7 +7,7 @@ from urllib2 import Request, urlopen, URLError
 import urllib
 import json
 import sys
-import config
+import config.config as config
 
 #Declare global variables here
 base_url = config.rest_base_url
