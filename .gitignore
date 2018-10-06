@@ -1,2 +1,3 @@
 #ignore all files in the config folder to avoid exposing sensitive data
 config/*.py
+
